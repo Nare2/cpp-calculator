@@ -8,10 +8,10 @@ int main() {
         cout << "\n===========================\n";
         cout << "       CALCULATOR        \n";
         cout << "===========================\n";
-        cout << "1️ Add (+)\n";
-        cout << "2️ Subtract (-)\n";
-        cout << "3️ Multiply (*)\n";
-        cout << "4️ Divide (/)\n";
+        cout << "1 Add (+)\n";
+        cout << "2 Subtract (-)\n";
+        cout << "3 Multiply (*)\n";
+        cout << "4 Divide (/)\n";
         cout << "5 Modul (%) \n";
         cout << "6 Exit\n";
         cout << "\n Choose option: ";
@@ -46,7 +46,7 @@ int main() {
 
         case 4:
             if (b == 0) {
-                cout << "❌ Error: Cannot divide by zero!\n";
+                cout << " Error: Cannot divide by zero!\n";
             }
             else {
                 cout << " Result: " << a / b << endl;
@@ -54,7 +54,7 @@ int main() {
             break;
         case 5:
             if (b == 0) {
-                cout << "❌ Error: Cannot modulo by 0!\n";
+                cout << " Error: Cannot modulo by 0!\n";
             }
             else {
                 cout << " Result: " << (int)a % (int)b << endl;
